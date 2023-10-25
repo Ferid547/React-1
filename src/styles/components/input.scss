@@ -1,0 +1,53 @@
+.register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    background: #eae9e8;
+    margin-inline: 560px;
+    padding-block: 30px;
+    border-radius: 10px;
+    .text {
+        width: 180px;
+        height: 30px;
+        outline: none;
+        border-radius: 7px;
+        border: 2px solid #6161ff;
+        padding-left: 10px;
+        font-family: 'Open Sans';
+    }
+    .password {
+        width: 180px;
+        height: 30px;
+        outline: none;
+        border-radius: 7px;
+        border: 2px solid #6161ff;
+        padding-left: 10px;
+        position: relative;
+        font-family: 'Open Sans';
+    }
+    .eye {
+        top: 206px;
+        right: 681px;
+        color: #2e2ea3;
+        position: absolute;
+        font-size: 20px;
+    }
+    .register-btn {
+        width: 100px;
+        height: 30px;
+        border-radius: 10px;
+        background: #106ac7;
+        color: white;
+        font-family: 'Open Sans';
+        font-weight: 600;
+        border: none;
+        transition: 0.3s;
+        &:hover {
+            background-color: #2e2ea3;
+            transition: 0.5s;
+        }
+    }
+
+}
